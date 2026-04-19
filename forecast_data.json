@@ -1,0 +1,2138 @@
+{
+  "lastUpdated": "2026-04-08T06:03:18Z",
+  "avgGapSeconds": 63.31,
+  "rowCount": 21179,
+  "lastReading": {
+    "timestamp": "2026-04-08T06:03:11Z",
+    "temperature": 68.4,
+    "humidity": 55.99,
+    "airQuality": 165.0
+  },
+  "mae": {
+    "temperature": 5.026000022888184,
+    "humidity": 5.078000068664551,
+    "airQuality": 25.302000045776367
+  },
+  "forecast": [
+    {
+      "step": 1,
+      "predictedTime": "2026-04-08T06:04:11Z",
+      "temperature": 68.9000015258789,
+      "humidity": 50.34000015258789,
+      "airQuality": 123.69999694824219,
+      "duration": "30min"
+    },
+    {
+      "step": 2,
+      "predictedTime": "2026-04-08T06:05:11Z",
+      "temperature": 68.87000274658203,
+      "humidity": 48.939998626708984,
+      "airQuality": 133.8000030517578,
+      "duration": "30min"
+    },
+    {
+      "step": 3,
+      "predictedTime": "2026-04-08T06:06:11Z",
+      "temperature": 69.45999908447266,
+      "humidity": 49.31999969482422,
+      "airQuality": 133.3000030517578,
+      "duration": "30min"
+    },
+    {
+      "step": 4,
+      "predictedTime": "2026-04-08T06:07:11Z",
+      "temperature": 71.01000213623047,
+      "humidity": 49.88999938964844,
+      "airQuality": 124.19999694824219,
+      "duration": "30min"
+    },
+    {
+      "step": 5,
+      "predictedTime": "2026-04-08T06:08:11Z",
+      "temperature": 70.56999969482422,
+      "humidity": 49.45000076293945,
+      "airQuality": 134.3000030517578,
+      "duration": "30min"
+    },
+    {
+      "step": 6,
+      "predictedTime": "2026-04-08T06:09:11Z",
+      "temperature": 69.51000213623047,
+      "humidity": 49.56999969482422,
+      "airQuality": 132.6999969482422,
+      "duration": "30min"
+    },
+    {
+      "step": 7,
+      "predictedTime": "2026-04-08T06:10:11Z",
+      "temperature": 69.44000244140625,
+      "humidity": 49.599998474121094,
+      "airQuality": 131.0,
+      "duration": "30min"
+    },
+    {
+      "step": 8,
+      "predictedTime": "2026-04-08T06:11:11Z",
+      "temperature": 69.95999908447266,
+      "humidity": 49.880001068115234,
+      "airQuality": 132.6999969482422,
+      "duration": "30min"
+    },
+    {
+      "step": 9,
+      "predictedTime": "2026-04-08T06:12:11Z",
+      "temperature": 69.75,
+      "humidity": 49.75,
+      "airQuality": 133.3000030517578,
+      "duration": "30min"
+    },
+    {
+      "step": 10,
+      "predictedTime": "2026-04-08T06:13:11Z",
+      "temperature": 69.55000305175781,
+      "humidity": 49.56999969482422,
+      "airQuality": 129.39999389648438,
+      "duration": "30min"
+    },
+    {
+      "step": 11,
+      "predictedTime": "2026-04-08T06:14:11Z",
+      "temperature": 69.86000061035156,
+      "humidity": 49.65999984741211,
+      "airQuality": 130.3000030517578,
+      "duration": "30min"
+    },
+    {
+      "step": 12,
+      "predictedTime": "2026-04-08T06:15:11Z",
+      "temperature": 69.81999969482422,
+      "humidity": 49.79999923706055,
+      "airQuality": 134.3000030517578,
+      "duration": "30min"
+    },
+    {
+      "step": 13,
+      "predictedTime": "2026-04-08T06:16:11Z",
+      "temperature": 69.6500015258789,
+      "humidity": 49.650001525878906,
+      "airQuality": 131.5,
+      "duration": "30min"
+    },
+    {
+      "step": 14,
+      "predictedTime": "2026-04-08T06:17:11Z",
+      "temperature": 69.6500015258789,
+      "humidity": 49.58000183105469,
+      "airQuality": 134.5,
+      "duration": "30min"
+    },
+    {
+      "step": 15,
+      "predictedTime": "2026-04-08T06:18:11Z",
+      "temperature": 69.66000366210938,
+      "humidity": 49.5099983215332,
+      "airQuality": 134.0,
+      "duration": "30min"
+    },
+    {
+      "step": 16,
+      "predictedTime": "2026-04-08T06:19:11Z",
+      "temperature": 69.06999969482422,
+      "humidity": 49.689998626708984,
+      "airQuality": 132.8000030517578,
+      "duration": "30min"
+    },
+    {
+      "step": 17,
+      "predictedTime": "2026-04-08T06:20:11Z",
+      "temperature": 69.58999633789062,
+      "humidity": 49.689998626708984,
+      "airQuality": 130.6999969482422,
+      "duration": "30min"
+    },
+    {
+      "step": 18,
+      "predictedTime": "2026-04-08T06:21:11Z",
+      "temperature": 69.80000305175781,
+      "humidity": 49.900001525878906,
+      "airQuality": 132.0,
+      "duration": "30min"
+    },
+    {
+      "step": 19,
+      "predictedTime": "2026-04-08T06:22:11Z",
+      "temperature": 69.70999908447266,
+      "humidity": 49.720001220703125,
+      "airQuality": 134.5,
+      "duration": "30min"
+    },
+    {
+      "step": 20,
+      "predictedTime": "2026-04-08T06:23:11Z",
+      "temperature": 69.51000213623047,
+      "humidity": 49.59000015258789,
+      "airQuality": 131.0,
+      "duration": "30min"
+    },
+    {
+      "step": 21,
+      "predictedTime": "2026-04-08T06:24:11Z",
+      "temperature": 69.25,
+      "humidity": 49.34000015258789,
+      "airQuality": 134.89999389648438,
+      "duration": "30min"
+    },
+    {
+      "step": 22,
+      "predictedTime": "2026-04-08T06:25:11Z",
+      "temperature": 69.5199966430664,
+      "humidity": 49.689998626708984,
+      "airQuality": 132.60000610351562,
+      "duration": "30min"
+    },
+    {
+      "step": 23,
+      "predictedTime": "2026-04-08T06:26:11Z",
+      "temperature": 69.43000030517578,
+      "humidity": 49.66999816894531,
+      "airQuality": 130.89999389648438,
+      "duration": "30min"
+    },
+    {
+      "step": 24,
+      "predictedTime": "2026-04-08T06:27:11Z",
+      "temperature": 69.80999755859375,
+      "humidity": 50.2599983215332,
+      "airQuality": 130.6999969482422,
+      "duration": "30min"
+    },
+    {
+      "step": 25,
+      "predictedTime": "2026-04-08T06:28:11Z",
+      "temperature": 69.81999969482422,
+      "humidity": 49.66999816894531,
+      "airQuality": 134.1999969482422,
+      "duration": "30min"
+    },
+    {
+      "step": 26,
+      "predictedTime": "2026-04-08T06:29:11Z",
+      "temperature": 69.72000122070312,
+      "humidity": 49.54999923706055,
+      "airQuality": 129.10000610351562,
+      "duration": "30min"
+    },
+    {
+      "step": 27,
+      "predictedTime": "2026-04-08T06:30:11Z",
+      "temperature": 69.83000183105469,
+      "humidity": 49.560001373291016,
+      "airQuality": 133.0,
+      "duration": "30min"
+    },
+    {
+      "step": 28,
+      "predictedTime": "2026-04-08T06:31:11Z",
+      "temperature": 69.66000366210938,
+      "humidity": 49.68000030517578,
+      "airQuality": 136.0,
+      "duration": "30min"
+    },
+    {
+      "step": 29,
+      "predictedTime": "2026-04-08T06:32:11Z",
+      "temperature": 69.62000274658203,
+      "humidity": 49.31999969482422,
+      "airQuality": 133.6999969482422,
+      "duration": "30min"
+    },
+    {
+      "step": 30,
+      "predictedTime": "2026-04-08T06:33:11Z",
+      "temperature": 69.44000244140625,
+      "humidity": 49.849998474121094,
+      "airQuality": 134.0,
+      "duration": "30min"
+    },
+    {
+      "step": 31,
+      "predictedTime": "2026-04-08T06:04:11Z",
+      "temperature": 68.9000015258789,
+      "humidity": 50.34000015258789,
+      "airQuality": 123.69999694824219,
+      "duration": "1hr"
+    },
+    {
+      "step": 32,
+      "predictedTime": "2026-04-08T06:05:11Z",
+      "temperature": 68.87000274658203,
+      "humidity": 48.939998626708984,
+      "airQuality": 133.8000030517578,
+      "duration": "1hr"
+    },
+    {
+      "step": 33,
+      "predictedTime": "2026-04-08T06:06:11Z",
+      "temperature": 69.45999908447266,
+      "humidity": 49.31999969482422,
+      "airQuality": 133.3000030517578,
+      "duration": "1hr"
+    },
+    {
+      "step": 34,
+      "predictedTime": "2026-04-08T06:07:11Z",
+      "temperature": 71.01000213623047,
+      "humidity": 49.88999938964844,
+      "airQuality": 124.19999694824219,
+      "duration": "1hr"
+    },
+    {
+      "step": 35,
+      "predictedTime": "2026-04-08T06:08:11Z",
+      "temperature": 70.56999969482422,
+      "humidity": 49.45000076293945,
+      "airQuality": 134.3000030517578,
+      "duration": "1hr"
+    },
+    {
+      "step": 36,
+      "predictedTime": "2026-04-08T06:09:11Z",
+      "temperature": 69.51000213623047,
+      "humidity": 49.56999969482422,
+      "airQuality": 132.6999969482422,
+      "duration": "1hr"
+    },
+    {
+      "step": 37,
+      "predictedTime": "2026-04-08T06:10:11Z",
+      "temperature": 69.44000244140625,
+      "humidity": 49.599998474121094,
+      "airQuality": 131.0,
+      "duration": "1hr"
+    },
+    {
+      "step": 38,
+      "predictedTime": "2026-04-08T06:11:11Z",
+      "temperature": 69.95999908447266,
+      "humidity": 49.880001068115234,
+      "airQuality": 132.6999969482422,
+      "duration": "1hr"
+    },
+    {
+      "step": 39,
+      "predictedTime": "2026-04-08T06:12:11Z",
+      "temperature": 69.75,
+      "humidity": 49.75,
+      "airQuality": 133.3000030517578,
+      "duration": "1hr"
+    },
+    {
+      "step": 40,
+      "predictedTime": "2026-04-08T06:13:11Z",
+      "temperature": 69.55000305175781,
+      "humidity": 49.56999969482422,
+      "airQuality": 129.39999389648438,
+      "duration": "1hr"
+    },
+    {
+      "step": 41,
+      "predictedTime": "2026-04-08T06:14:11Z",
+      "temperature": 69.86000061035156,
+      "humidity": 49.65999984741211,
+      "airQuality": 130.3000030517578,
+      "duration": "1hr"
+    },
+    {
+      "step": 42,
+      "predictedTime": "2026-04-08T06:15:11Z",
+      "temperature": 69.81999969482422,
+      "humidity": 49.79999923706055,
+      "airQuality": 134.3000030517578,
+      "duration": "1hr"
+    },
+    {
+      "step": 43,
+      "predictedTime": "2026-04-08T06:16:11Z",
+      "temperature": 69.6500015258789,
+      "humidity": 49.650001525878906,
+      "airQuality": 131.5,
+      "duration": "1hr"
+    },
+    {
+      "step": 44,
+      "predictedTime": "2026-04-08T06:17:11Z",
+      "temperature": 69.6500015258789,
+      "humidity": 49.58000183105469,
+      "airQuality": 134.5,
+      "duration": "1hr"
+    },
+    {
+      "step": 45,
+      "predictedTime": "2026-04-08T06:18:11Z",
+      "temperature": 69.66000366210938,
+      "humidity": 49.5099983215332,
+      "airQuality": 134.0,
+      "duration": "1hr"
+    },
+    {
+      "step": 46,
+      "predictedTime": "2026-04-08T06:19:11Z",
+      "temperature": 69.06999969482422,
+      "humidity": 49.689998626708984,
+      "airQuality": 132.8000030517578,
+      "duration": "1hr"
+    },
+    {
+      "step": 47,
+      "predictedTime": "2026-04-08T06:20:11Z",
+      "temperature": 69.58999633789062,
+      "humidity": 49.689998626708984,
+      "airQuality": 130.6999969482422,
+      "duration": "1hr"
+    },
+    {
+      "step": 48,
+      "predictedTime": "2026-04-08T06:21:11Z",
+      "temperature": 69.80000305175781,
+      "humidity": 49.900001525878906,
+      "airQuality": 132.0,
+      "duration": "1hr"
+    },
+    {
+      "step": 49,
+      "predictedTime": "2026-04-08T06:22:11Z",
+      "temperature": 69.70999908447266,
+      "humidity": 49.720001220703125,
+      "airQuality": 134.5,
+      "duration": "1hr"
+    },
+    {
+      "step": 50,
+      "predictedTime": "2026-04-08T06:23:11Z",
+      "temperature": 69.51000213623047,
+      "humidity": 49.59000015258789,
+      "airQuality": 131.0,
+      "duration": "1hr"
+    },
+    {
+      "step": 51,
+      "predictedTime": "2026-04-08T06:24:11Z",
+      "temperature": 69.25,
+      "humidity": 49.34000015258789,
+      "airQuality": 134.89999389648438,
+      "duration": "1hr"
+    },
+    {
+      "step": 52,
+      "predictedTime": "2026-04-08T06:25:11Z",
+      "temperature": 69.5199966430664,
+      "humidity": 49.689998626708984,
+      "airQuality": 132.60000610351562,
+      "duration": "1hr"
+    },
+    {
+      "step": 53,
+      "predictedTime": "2026-04-08T06:26:11Z",
+      "temperature": 69.43000030517578,
+      "humidity": 49.66999816894531,
+      "airQuality": 130.89999389648438,
+      "duration": "1hr"
+    },
+    {
+      "step": 54,
+      "predictedTime": "2026-04-08T06:27:11Z",
+      "temperature": 69.80999755859375,
+      "humidity": 50.2599983215332,
+      "airQuality": 130.6999969482422,
+      "duration": "1hr"
+    },
+    {
+      "step": 55,
+      "predictedTime": "2026-04-08T06:28:11Z",
+      "temperature": 69.81999969482422,
+      "humidity": 49.66999816894531,
+      "airQuality": 134.1999969482422,
+      "duration": "1hr"
+    },
+    {
+      "step": 56,
+      "predictedTime": "2026-04-08T06:29:11Z",
+      "temperature": 69.72000122070312,
+      "humidity": 49.54999923706055,
+      "airQuality": 129.10000610351562,
+      "duration": "1hr"
+    },
+    {
+      "step": 57,
+      "predictedTime": "2026-04-08T06:30:11Z",
+      "temperature": 69.83000183105469,
+      "humidity": 49.560001373291016,
+      "airQuality": 133.0,
+      "duration": "1hr"
+    },
+    {
+      "step": 58,
+      "predictedTime": "2026-04-08T06:31:11Z",
+      "temperature": 69.66000366210938,
+      "humidity": 49.68000030517578,
+      "airQuality": 136.0,
+      "duration": "1hr"
+    },
+    {
+      "step": 59,
+      "predictedTime": "2026-04-08T06:32:11Z",
+      "temperature": 69.62000274658203,
+      "humidity": 49.31999969482422,
+      "airQuality": 133.6999969482422,
+      "duration": "1hr"
+    },
+    {
+      "step": 60,
+      "predictedTime": "2026-04-08T06:33:11Z",
+      "temperature": 69.44000244140625,
+      "humidity": 49.849998474121094,
+      "airQuality": 134.0,
+      "duration": "1hr"
+    },
+    {
+      "step": 61,
+      "predictedTime": "2026-04-08T06:34:11Z",
+      "temperature": 69.83000183105469,
+      "humidity": 49.619998931884766,
+      "airQuality": 131.10000610351562,
+      "duration": "1hr"
+    },
+    {
+      "step": 62,
+      "predictedTime": "2026-04-08T06:35:11Z",
+      "temperature": 69.58999633789062,
+      "humidity": 49.41999816894531,
+      "airQuality": 132.8000030517578,
+      "duration": "1hr"
+    },
+    {
+      "step": 63,
+      "predictedTime": "2026-04-08T06:36:11Z",
+      "temperature": 69.55999755859375,
+      "humidity": 49.540000915527344,
+      "airQuality": 133.6999969482422,
+      "duration": "1hr"
+    },
+    {
+      "step": 64,
+      "predictedTime": "2026-04-08T06:37:11Z",
+      "temperature": 69.05000305175781,
+      "humidity": 49.72999954223633,
+      "airQuality": 130.60000610351562,
+      "duration": "1hr"
+    },
+    {
+      "step": 65,
+      "predictedTime": "2026-04-08T06:38:11Z",
+      "temperature": 69.70999908447266,
+      "humidity": 49.81999969482422,
+      "airQuality": 130.89999389648438,
+      "duration": "1hr"
+    },
+    {
+      "step": 66,
+      "predictedTime": "2026-04-08T06:39:11Z",
+      "temperature": 69.80000305175781,
+      "humidity": 49.61000061035156,
+      "airQuality": 134.6999969482422,
+      "duration": "1hr"
+    },
+    {
+      "step": 67,
+      "predictedTime": "2026-04-08T06:40:11Z",
+      "temperature": 69.7699966430664,
+      "humidity": 49.83000183105469,
+      "airQuality": 134.3000030517578,
+      "duration": "1hr"
+    },
+    {
+      "step": 68,
+      "predictedTime": "2026-04-08T06:41:11Z",
+      "temperature": 69.51000213623047,
+      "humidity": 49.56999969482422,
+      "airQuality": 133.89999389648438,
+      "duration": "1hr"
+    },
+    {
+      "step": 69,
+      "predictedTime": "2026-04-08T06:42:11Z",
+      "temperature": 69.63999938964844,
+      "humidity": 49.83000183105469,
+      "airQuality": 135.3000030517578,
+      "duration": "1hr"
+    },
+    {
+      "step": 70,
+      "predictedTime": "2026-04-08T06:43:11Z",
+      "temperature": 69.66000366210938,
+      "humidity": 49.400001525878906,
+      "airQuality": 134.89999389648438,
+      "duration": "1hr"
+    },
+    {
+      "step": 71,
+      "predictedTime": "2026-04-08T06:44:11Z",
+      "temperature": 69.51000213623047,
+      "humidity": 49.70000076293945,
+      "airQuality": 131.89999389648438,
+      "duration": "1hr"
+    },
+    {
+      "step": 72,
+      "predictedTime": "2026-04-08T06:45:11Z",
+      "temperature": 69.63999938964844,
+      "humidity": 49.540000915527344,
+      "airQuality": 129.0,
+      "duration": "1hr"
+    },
+    {
+      "step": 73,
+      "predictedTime": "2026-04-08T06:46:11Z",
+      "temperature": 69.5999984741211,
+      "humidity": 49.779998779296875,
+      "airQuality": 132.0,
+      "duration": "1hr"
+    },
+    {
+      "step": 74,
+      "predictedTime": "2026-04-08T06:47:11Z",
+      "temperature": 69.26000213623047,
+      "humidity": 49.540000915527344,
+      "airQuality": 132.39999389648438,
+      "duration": "1hr"
+    },
+    {
+      "step": 75,
+      "predictedTime": "2026-04-08T06:48:11Z",
+      "temperature": 69.44999694824219,
+      "humidity": 49.689998626708984,
+      "airQuality": 129.8000030517578,
+      "duration": "1hr"
+    },
+    {
+      "step": 76,
+      "predictedTime": "2026-04-08T06:49:11Z",
+      "temperature": 69.41000366210938,
+      "humidity": 49.650001525878906,
+      "airQuality": 132.6999969482422,
+      "duration": "1hr"
+    },
+    {
+      "step": 77,
+      "predictedTime": "2026-04-08T06:50:11Z",
+      "temperature": 69.70999908447266,
+      "humidity": 50.189998626708984,
+      "airQuality": 133.10000610351562,
+      "duration": "1hr"
+    },
+    {
+      "step": 78,
+      "predictedTime": "2026-04-08T06:51:11Z",
+      "temperature": 69.66999816894531,
+      "humidity": 49.63999938964844,
+      "airQuality": 133.0,
+      "duration": "1hr"
+    },
+    {
+      "step": 79,
+      "predictedTime": "2026-04-08T06:52:11Z",
+      "temperature": 69.76000213623047,
+      "humidity": 49.5099983215332,
+      "airQuality": 128.8000030517578,
+      "duration": "1hr"
+    },
+    {
+      "step": 80,
+      "predictedTime": "2026-04-08T06:53:11Z",
+      "temperature": 69.76000213623047,
+      "humidity": 49.560001373291016,
+      "airQuality": 132.5,
+      "duration": "1hr"
+    },
+    {
+      "step": 81,
+      "predictedTime": "2026-04-08T06:54:11Z",
+      "temperature": 69.72000122070312,
+      "humidity": 49.599998474121094,
+      "airQuality": 131.60000610351562,
+      "duration": "1hr"
+    },
+    {
+      "step": 82,
+      "predictedTime": "2026-04-08T06:55:11Z",
+      "temperature": 69.5999984741211,
+      "humidity": 49.439998626708984,
+      "airQuality": 132.39999389648438,
+      "duration": "1hr"
+    },
+    {
+      "step": 83,
+      "predictedTime": "2026-04-08T06:56:11Z",
+      "temperature": 69.44000244140625,
+      "humidity": 49.79999923706055,
+      "airQuality": 135.8000030517578,
+      "duration": "1hr"
+    },
+    {
+      "step": 84,
+      "predictedTime": "2026-04-08T06:57:11Z",
+      "temperature": 69.19999694824219,
+      "humidity": 49.630001068115234,
+      "airQuality": 132.0,
+      "duration": "1hr"
+    },
+    {
+      "step": 85,
+      "predictedTime": "2026-04-08T06:58:11Z",
+      "temperature": 69.63999938964844,
+      "humidity": 49.77000045776367,
+      "airQuality": 132.60000610351562,
+      "duration": "1hr"
+    },
+    {
+      "step": 86,
+      "predictedTime": "2026-04-08T06:59:11Z",
+      "temperature": 69.76000213623047,
+      "humidity": 49.540000915527344,
+      "airQuality": 134.1999969482422,
+      "duration": "1hr"
+    },
+    {
+      "step": 87,
+      "predictedTime": "2026-04-08T07:00:11Z",
+      "temperature": 69.62000274658203,
+      "humidity": 50.04999923706055,
+      "airQuality": 130.10000610351562,
+      "duration": "1hr"
+    },
+    {
+      "step": 88,
+      "predictedTime": "2026-04-08T07:01:11Z",
+      "temperature": 69.61000061035156,
+      "humidity": 49.56999969482422,
+      "airQuality": 129.89999389648438,
+      "duration": "1hr"
+    },
+    {
+      "step": 89,
+      "predictedTime": "2026-04-08T07:02:11Z",
+      "temperature": 69.80000305175781,
+      "humidity": 49.88999938964844,
+      "airQuality": 133.60000610351562,
+      "duration": "1hr"
+    },
+    {
+      "step": 90,
+      "predictedTime": "2026-04-08T07:03:11Z",
+      "temperature": 69.70999908447266,
+      "humidity": 49.630001068115234,
+      "airQuality": 134.5,
+      "duration": "1hr"
+    },
+    {
+      "step": 91,
+      "predictedTime": "2026-04-08T06:08:11Z",
+      "temperature": 68.9000015258789,
+      "humidity": 50.34000015258789,
+      "airQuality": 123.69999694824219,
+      "duration": "6hr"
+    },
+    {
+      "step": 92,
+      "predictedTime": "2026-04-08T06:13:11Z",
+      "temperature": 68.87000274658203,
+      "humidity": 48.939998626708984,
+      "airQuality": 133.8000030517578,
+      "duration": "6hr"
+    },
+    {
+      "step": 93,
+      "predictedTime": "2026-04-08T06:18:11Z",
+      "temperature": 69.45999908447266,
+      "humidity": 49.31999969482422,
+      "airQuality": 133.3000030517578,
+      "duration": "6hr"
+    },
+    {
+      "step": 94,
+      "predictedTime": "2026-04-08T06:23:11Z",
+      "temperature": 71.01000213623047,
+      "humidity": 49.88999938964844,
+      "airQuality": 124.19999694824219,
+      "duration": "6hr"
+    },
+    {
+      "step": 95,
+      "predictedTime": "2026-04-08T06:28:11Z",
+      "temperature": 70.56999969482422,
+      "humidity": 49.45000076293945,
+      "airQuality": 134.3000030517578,
+      "duration": "6hr"
+    },
+    {
+      "step": 96,
+      "predictedTime": "2026-04-08T06:33:11Z",
+      "temperature": 69.51000213623047,
+      "humidity": 49.56999969482422,
+      "airQuality": 132.6999969482422,
+      "duration": "6hr"
+    },
+    {
+      "step": 97,
+      "predictedTime": "2026-04-08T06:38:11Z",
+      "temperature": 69.44000244140625,
+      "humidity": 49.599998474121094,
+      "airQuality": 131.0,
+      "duration": "6hr"
+    },
+    {
+      "step": 98,
+      "predictedTime": "2026-04-08T06:43:11Z",
+      "temperature": 69.95999908447266,
+      "humidity": 49.880001068115234,
+      "airQuality": 132.6999969482422,
+      "duration": "6hr"
+    },
+    {
+      "step": 99,
+      "predictedTime": "2026-04-08T06:48:11Z",
+      "temperature": 69.75,
+      "humidity": 49.75,
+      "airQuality": 133.3000030517578,
+      "duration": "6hr"
+    },
+    {
+      "step": 100,
+      "predictedTime": "2026-04-08T06:53:11Z",
+      "temperature": 69.55000305175781,
+      "humidity": 49.56999969482422,
+      "airQuality": 129.39999389648438,
+      "duration": "6hr"
+    },
+    {
+      "step": 101,
+      "predictedTime": "2026-04-08T06:58:11Z",
+      "temperature": 69.86000061035156,
+      "humidity": 49.65999984741211,
+      "airQuality": 130.3000030517578,
+      "duration": "6hr"
+    },
+    {
+      "step": 102,
+      "predictedTime": "2026-04-08T07:03:11Z",
+      "temperature": 69.81999969482422,
+      "humidity": 49.79999923706055,
+      "airQuality": 134.3000030517578,
+      "duration": "6hr"
+    },
+    {
+      "step": 103,
+      "predictedTime": "2026-04-08T07:08:11Z",
+      "temperature": 69.6500015258789,
+      "humidity": 49.650001525878906,
+      "airQuality": 131.5,
+      "duration": "6hr"
+    },
+    {
+      "step": 104,
+      "predictedTime": "2026-04-08T07:13:11Z",
+      "temperature": 69.6500015258789,
+      "humidity": 49.58000183105469,
+      "airQuality": 134.5,
+      "duration": "6hr"
+    },
+    {
+      "step": 105,
+      "predictedTime": "2026-04-08T07:18:11Z",
+      "temperature": 69.66000366210938,
+      "humidity": 49.5099983215332,
+      "airQuality": 134.0,
+      "duration": "6hr"
+    },
+    {
+      "step": 106,
+      "predictedTime": "2026-04-08T07:23:11Z",
+      "temperature": 69.06999969482422,
+      "humidity": 49.689998626708984,
+      "airQuality": 132.8000030517578,
+      "duration": "6hr"
+    },
+    {
+      "step": 107,
+      "predictedTime": "2026-04-08T07:28:11Z",
+      "temperature": 69.58999633789062,
+      "humidity": 49.689998626708984,
+      "airQuality": 130.6999969482422,
+      "duration": "6hr"
+    },
+    {
+      "step": 108,
+      "predictedTime": "2026-04-08T07:33:11Z",
+      "temperature": 69.80000305175781,
+      "humidity": 49.900001525878906,
+      "airQuality": 132.0,
+      "duration": "6hr"
+    },
+    {
+      "step": 109,
+      "predictedTime": "2026-04-08T07:38:11Z",
+      "temperature": 69.70999908447266,
+      "humidity": 49.720001220703125,
+      "airQuality": 134.5,
+      "duration": "6hr"
+    },
+    {
+      "step": 110,
+      "predictedTime": "2026-04-08T07:43:11Z",
+      "temperature": 69.51000213623047,
+      "humidity": 49.59000015258789,
+      "airQuality": 131.0,
+      "duration": "6hr"
+    },
+    {
+      "step": 111,
+      "predictedTime": "2026-04-08T07:48:11Z",
+      "temperature": 69.25,
+      "humidity": 49.34000015258789,
+      "airQuality": 134.89999389648438,
+      "duration": "6hr"
+    },
+    {
+      "step": 112,
+      "predictedTime": "2026-04-08T07:53:11Z",
+      "temperature": 69.5199966430664,
+      "humidity": 49.689998626708984,
+      "airQuality": 132.60000610351562,
+      "duration": "6hr"
+    },
+    {
+      "step": 113,
+      "predictedTime": "2026-04-08T07:58:11Z",
+      "temperature": 69.43000030517578,
+      "humidity": 49.66999816894531,
+      "airQuality": 130.89999389648438,
+      "duration": "6hr"
+    },
+    {
+      "step": 114,
+      "predictedTime": "2026-04-08T08:03:11Z",
+      "temperature": 69.80999755859375,
+      "humidity": 50.2599983215332,
+      "airQuality": 130.6999969482422,
+      "duration": "6hr"
+    },
+    {
+      "step": 115,
+      "predictedTime": "2026-04-08T08:08:11Z",
+      "temperature": 69.81999969482422,
+      "humidity": 49.66999816894531,
+      "airQuality": 134.1999969482422,
+      "duration": "6hr"
+    },
+    {
+      "step": 116,
+      "predictedTime": "2026-04-08T08:13:11Z",
+      "temperature": 69.72000122070312,
+      "humidity": 49.54999923706055,
+      "airQuality": 129.10000610351562,
+      "duration": "6hr"
+    },
+    {
+      "step": 117,
+      "predictedTime": "2026-04-08T08:18:11Z",
+      "temperature": 69.83000183105469,
+      "humidity": 49.560001373291016,
+      "airQuality": 133.0,
+      "duration": "6hr"
+    },
+    {
+      "step": 118,
+      "predictedTime": "2026-04-08T08:23:11Z",
+      "temperature": 69.66000366210938,
+      "humidity": 49.68000030517578,
+      "airQuality": 136.0,
+      "duration": "6hr"
+    },
+    {
+      "step": 119,
+      "predictedTime": "2026-04-08T08:28:11Z",
+      "temperature": 69.62000274658203,
+      "humidity": 49.31999969482422,
+      "airQuality": 133.6999969482422,
+      "duration": "6hr"
+    },
+    {
+      "step": 120,
+      "predictedTime": "2026-04-08T08:33:11Z",
+      "temperature": 69.44000244140625,
+      "humidity": 49.849998474121094,
+      "airQuality": 134.0,
+      "duration": "6hr"
+    },
+    {
+      "step": 121,
+      "predictedTime": "2026-04-08T08:38:11Z",
+      "temperature": 69.83000183105469,
+      "humidity": 49.619998931884766,
+      "airQuality": 131.10000610351562,
+      "duration": "6hr"
+    },
+    {
+      "step": 122,
+      "predictedTime": "2026-04-08T08:43:11Z",
+      "temperature": 69.58999633789062,
+      "humidity": 49.41999816894531,
+      "airQuality": 132.8000030517578,
+      "duration": "6hr"
+    },
+    {
+      "step": 123,
+      "predictedTime": "2026-04-08T08:48:11Z",
+      "temperature": 69.55999755859375,
+      "humidity": 49.540000915527344,
+      "airQuality": 133.6999969482422,
+      "duration": "6hr"
+    },
+    {
+      "step": 124,
+      "predictedTime": "2026-04-08T08:53:11Z",
+      "temperature": 69.05000305175781,
+      "humidity": 49.72999954223633,
+      "airQuality": 130.60000610351562,
+      "duration": "6hr"
+    },
+    {
+      "step": 125,
+      "predictedTime": "2026-04-08T08:58:11Z",
+      "temperature": 69.70999908447266,
+      "humidity": 49.81999969482422,
+      "airQuality": 130.89999389648438,
+      "duration": "6hr"
+    },
+    {
+      "step": 126,
+      "predictedTime": "2026-04-08T09:03:11Z",
+      "temperature": 69.80000305175781,
+      "humidity": 49.61000061035156,
+      "airQuality": 134.6999969482422,
+      "duration": "6hr"
+    },
+    {
+      "step": 127,
+      "predictedTime": "2026-04-08T09:08:11Z",
+      "temperature": 69.7699966430664,
+      "humidity": 49.83000183105469,
+      "airQuality": 134.3000030517578,
+      "duration": "6hr"
+    },
+    {
+      "step": 128,
+      "predictedTime": "2026-04-08T09:13:11Z",
+      "temperature": 69.51000213623047,
+      "humidity": 49.56999969482422,
+      "airQuality": 133.89999389648438,
+      "duration": "6hr"
+    },
+    {
+      "step": 129,
+      "predictedTime": "2026-04-08T09:18:11Z",
+      "temperature": 69.63999938964844,
+      "humidity": 49.83000183105469,
+      "airQuality": 135.3000030517578,
+      "duration": "6hr"
+    },
+    {
+      "step": 130,
+      "predictedTime": "2026-04-08T09:23:11Z",
+      "temperature": 69.66000366210938,
+      "humidity": 49.400001525878906,
+      "airQuality": 134.89999389648438,
+      "duration": "6hr"
+    },
+    {
+      "step": 131,
+      "predictedTime": "2026-04-08T09:28:11Z",
+      "temperature": 69.51000213623047,
+      "humidity": 49.70000076293945,
+      "airQuality": 131.89999389648438,
+      "duration": "6hr"
+    },
+    {
+      "step": 132,
+      "predictedTime": "2026-04-08T09:33:11Z",
+      "temperature": 69.63999938964844,
+      "humidity": 49.540000915527344,
+      "airQuality": 129.0,
+      "duration": "6hr"
+    },
+    {
+      "step": 133,
+      "predictedTime": "2026-04-08T09:38:11Z",
+      "temperature": 69.5999984741211,
+      "humidity": 49.779998779296875,
+      "airQuality": 132.0,
+      "duration": "6hr"
+    },
+    {
+      "step": 134,
+      "predictedTime": "2026-04-08T09:43:11Z",
+      "temperature": 69.26000213623047,
+      "humidity": 49.540000915527344,
+      "airQuality": 132.39999389648438,
+      "duration": "6hr"
+    },
+    {
+      "step": 135,
+      "predictedTime": "2026-04-08T09:48:11Z",
+      "temperature": 69.44999694824219,
+      "humidity": 49.689998626708984,
+      "airQuality": 129.8000030517578,
+      "duration": "6hr"
+    },
+    {
+      "step": 136,
+      "predictedTime": "2026-04-08T09:53:11Z",
+      "temperature": 69.41000366210938,
+      "humidity": 49.650001525878906,
+      "airQuality": 132.6999969482422,
+      "duration": "6hr"
+    },
+    {
+      "step": 137,
+      "predictedTime": "2026-04-08T09:58:11Z",
+      "temperature": 69.70999908447266,
+      "humidity": 50.189998626708984,
+      "airQuality": 133.10000610351562,
+      "duration": "6hr"
+    },
+    {
+      "step": 138,
+      "predictedTime": "2026-04-08T10:03:11Z",
+      "temperature": 69.66999816894531,
+      "humidity": 49.63999938964844,
+      "airQuality": 133.0,
+      "duration": "6hr"
+    },
+    {
+      "step": 139,
+      "predictedTime": "2026-04-08T10:08:11Z",
+      "temperature": 69.76000213623047,
+      "humidity": 49.5099983215332,
+      "airQuality": 128.8000030517578,
+      "duration": "6hr"
+    },
+    {
+      "step": 140,
+      "predictedTime": "2026-04-08T10:13:11Z",
+      "temperature": 69.76000213623047,
+      "humidity": 49.560001373291016,
+      "airQuality": 132.5,
+      "duration": "6hr"
+    },
+    {
+      "step": 141,
+      "predictedTime": "2026-04-08T10:18:11Z",
+      "temperature": 69.72000122070312,
+      "humidity": 49.599998474121094,
+      "airQuality": 131.60000610351562,
+      "duration": "6hr"
+    },
+    {
+      "step": 142,
+      "predictedTime": "2026-04-08T10:23:11Z",
+      "temperature": 69.5999984741211,
+      "humidity": 49.439998626708984,
+      "airQuality": 132.39999389648438,
+      "duration": "6hr"
+    },
+    {
+      "step": 143,
+      "predictedTime": "2026-04-08T10:28:11Z",
+      "temperature": 69.44000244140625,
+      "humidity": 49.79999923706055,
+      "airQuality": 135.8000030517578,
+      "duration": "6hr"
+    },
+    {
+      "step": 144,
+      "predictedTime": "2026-04-08T10:33:11Z",
+      "temperature": 69.19999694824219,
+      "humidity": 49.630001068115234,
+      "airQuality": 132.0,
+      "duration": "6hr"
+    },
+    {
+      "step": 145,
+      "predictedTime": "2026-04-08T10:38:11Z",
+      "temperature": 69.63999938964844,
+      "humidity": 49.77000045776367,
+      "airQuality": 132.60000610351562,
+      "duration": "6hr"
+    },
+    {
+      "step": 146,
+      "predictedTime": "2026-04-08T10:43:11Z",
+      "temperature": 69.76000213623047,
+      "humidity": 49.540000915527344,
+      "airQuality": 134.1999969482422,
+      "duration": "6hr"
+    },
+    {
+      "step": 147,
+      "predictedTime": "2026-04-08T10:48:11Z",
+      "temperature": 69.62000274658203,
+      "humidity": 50.04999923706055,
+      "airQuality": 130.10000610351562,
+      "duration": "6hr"
+    },
+    {
+      "step": 148,
+      "predictedTime": "2026-04-08T10:53:11Z",
+      "temperature": 69.61000061035156,
+      "humidity": 49.56999969482422,
+      "airQuality": 129.89999389648438,
+      "duration": "6hr"
+    },
+    {
+      "step": 149,
+      "predictedTime": "2026-04-08T10:58:11Z",
+      "temperature": 69.80000305175781,
+      "humidity": 49.88999938964844,
+      "airQuality": 133.60000610351562,
+      "duration": "6hr"
+    },
+    {
+      "step": 150,
+      "predictedTime": "2026-04-08T11:03:11Z",
+      "temperature": 69.70999908447266,
+      "humidity": 49.630001068115234,
+      "airQuality": 134.5,
+      "duration": "6hr"
+    },
+    {
+      "step": 151,
+      "predictedTime": "2026-04-08T11:08:11Z",
+      "temperature": 69.5999984741211,
+      "humidity": 49.70000076293945,
+      "airQuality": 133.60000610351562,
+      "duration": "6hr"
+    },
+    {
+      "step": 152,
+      "predictedTime": "2026-04-08T11:13:11Z",
+      "temperature": 69.69999694824219,
+      "humidity": 49.61000061035156,
+      "airQuality": 134.89999389648438,
+      "duration": "6hr"
+    },
+    {
+      "step": 153,
+      "predictedTime": "2026-04-08T11:18:11Z",
+      "temperature": 69.66000366210938,
+      "humidity": 49.689998626708984,
+      "airQuality": 133.0,
+      "duration": "6hr"
+    },
+    {
+      "step": 154,
+      "predictedTime": "2026-04-08T11:23:11Z",
+      "temperature": 69.63999938964844,
+      "humidity": 49.47999954223633,
+      "airQuality": 132.39999389648438,
+      "duration": "6hr"
+    },
+    {
+      "step": 155,
+      "predictedTime": "2026-04-08T11:28:11Z",
+      "temperature": 69.44000244140625,
+      "humidity": 49.439998626708984,
+      "airQuality": 131.5,
+      "duration": "6hr"
+    },
+    {
+      "step": 156,
+      "predictedTime": "2026-04-08T11:33:11Z",
+      "temperature": 69.5,
+      "humidity": 49.58000183105469,
+      "airQuality": 129.60000610351562,
+      "duration": "6hr"
+    },
+    {
+      "step": 157,
+      "predictedTime": "2026-04-08T11:38:11Z",
+      "temperature": 69.75,
+      "humidity": 49.810001373291016,
+      "airQuality": 130.0,
+      "duration": "6hr"
+    },
+    {
+      "step": 158,
+      "predictedTime": "2026-04-08T11:43:11Z",
+      "temperature": 69.41999816894531,
+      "humidity": 49.61000061035156,
+      "airQuality": 134.6999969482422,
+      "duration": "6hr"
+    },
+    {
+      "step": 159,
+      "predictedTime": "2026-04-08T11:48:11Z",
+      "temperature": 69.70999908447266,
+      "humidity": 49.880001068115234,
+      "airQuality": 132.5,
+      "duration": "6hr"
+    },
+    {
+      "step": 160,
+      "predictedTime": "2026-04-08T11:53:11Z",
+      "temperature": 69.70999908447266,
+      "humidity": 49.540000915527344,
+      "airQuality": 133.5,
+      "duration": "6hr"
+    },
+    {
+      "step": 161,
+      "predictedTime": "2026-04-08T11:58:11Z",
+      "temperature": 69.55999755859375,
+      "humidity": 49.68000030517578,
+      "airQuality": 132.3000030517578,
+      "duration": "6hr"
+    },
+    {
+      "step": 162,
+      "predictedTime": "2026-04-08T12:03:11Z",
+      "temperature": 69.69999694824219,
+      "humidity": 49.540000915527344,
+      "airQuality": 131.10000610351562,
+      "duration": "6hr"
+    },
+    {
+      "step": 163,
+      "predictedTime": "2026-04-08T06:13:11Z",
+      "temperature": 68.9000015258789,
+      "humidity": 50.34000015258789,
+      "airQuality": 123.69999694824219,
+      "duration": "12hr"
+    },
+    {
+      "step": 164,
+      "predictedTime": "2026-04-08T06:23:11Z",
+      "temperature": 68.87000274658203,
+      "humidity": 48.939998626708984,
+      "airQuality": 133.8000030517578,
+      "duration": "12hr"
+    },
+    {
+      "step": 165,
+      "predictedTime": "2026-04-08T06:33:11Z",
+      "temperature": 69.45999908447266,
+      "humidity": 49.31999969482422,
+      "airQuality": 133.3000030517578,
+      "duration": "12hr"
+    },
+    {
+      "step": 166,
+      "predictedTime": "2026-04-08T06:43:11Z",
+      "temperature": 71.01000213623047,
+      "humidity": 49.88999938964844,
+      "airQuality": 124.19999694824219,
+      "duration": "12hr"
+    },
+    {
+      "step": 167,
+      "predictedTime": "2026-04-08T06:53:11Z",
+      "temperature": 70.56999969482422,
+      "humidity": 49.45000076293945,
+      "airQuality": 134.3000030517578,
+      "duration": "12hr"
+    },
+    {
+      "step": 168,
+      "predictedTime": "2026-04-08T07:03:11Z",
+      "temperature": 69.51000213623047,
+      "humidity": 49.56999969482422,
+      "airQuality": 132.6999969482422,
+      "duration": "12hr"
+    },
+    {
+      "step": 169,
+      "predictedTime": "2026-04-08T07:13:11Z",
+      "temperature": 69.44000244140625,
+      "humidity": 49.599998474121094,
+      "airQuality": 131.0,
+      "duration": "12hr"
+    },
+    {
+      "step": 170,
+      "predictedTime": "2026-04-08T07:23:11Z",
+      "temperature": 69.95999908447266,
+      "humidity": 49.880001068115234,
+      "airQuality": 132.6999969482422,
+      "duration": "12hr"
+    },
+    {
+      "step": 171,
+      "predictedTime": "2026-04-08T07:33:11Z",
+      "temperature": 69.75,
+      "humidity": 49.75,
+      "airQuality": 133.3000030517578,
+      "duration": "12hr"
+    },
+    {
+      "step": 172,
+      "predictedTime": "2026-04-08T07:43:11Z",
+      "temperature": 69.55000305175781,
+      "humidity": 49.56999969482422,
+      "airQuality": 129.39999389648438,
+      "duration": "12hr"
+    },
+    {
+      "step": 173,
+      "predictedTime": "2026-04-08T07:53:11Z",
+      "temperature": 69.86000061035156,
+      "humidity": 49.65999984741211,
+      "airQuality": 130.3000030517578,
+      "duration": "12hr"
+    },
+    {
+      "step": 174,
+      "predictedTime": "2026-04-08T08:03:11Z",
+      "temperature": 69.81999969482422,
+      "humidity": 49.79999923706055,
+      "airQuality": 134.3000030517578,
+      "duration": "12hr"
+    },
+    {
+      "step": 175,
+      "predictedTime": "2026-04-08T08:13:11Z",
+      "temperature": 69.6500015258789,
+      "humidity": 49.650001525878906,
+      "airQuality": 131.5,
+      "duration": "12hr"
+    },
+    {
+      "step": 176,
+      "predictedTime": "2026-04-08T08:23:11Z",
+      "temperature": 69.6500015258789,
+      "humidity": 49.58000183105469,
+      "airQuality": 134.5,
+      "duration": "12hr"
+    },
+    {
+      "step": 177,
+      "predictedTime": "2026-04-08T08:33:11Z",
+      "temperature": 69.66000366210938,
+      "humidity": 49.5099983215332,
+      "airQuality": 134.0,
+      "duration": "12hr"
+    },
+    {
+      "step": 178,
+      "predictedTime": "2026-04-08T08:43:11Z",
+      "temperature": 69.06999969482422,
+      "humidity": 49.689998626708984,
+      "airQuality": 132.8000030517578,
+      "duration": "12hr"
+    },
+    {
+      "step": 179,
+      "predictedTime": "2026-04-08T08:53:11Z",
+      "temperature": 69.58999633789062,
+      "humidity": 49.689998626708984,
+      "airQuality": 130.6999969482422,
+      "duration": "12hr"
+    },
+    {
+      "step": 180,
+      "predictedTime": "2026-04-08T09:03:11Z",
+      "temperature": 69.80000305175781,
+      "humidity": 49.900001525878906,
+      "airQuality": 132.0,
+      "duration": "12hr"
+    },
+    {
+      "step": 181,
+      "predictedTime": "2026-04-08T09:13:11Z",
+      "temperature": 69.70999908447266,
+      "humidity": 49.720001220703125,
+      "airQuality": 134.5,
+      "duration": "12hr"
+    },
+    {
+      "step": 182,
+      "predictedTime": "2026-04-08T09:23:11Z",
+      "temperature": 69.51000213623047,
+      "humidity": 49.59000015258789,
+      "airQuality": 131.0,
+      "duration": "12hr"
+    },
+    {
+      "step": 183,
+      "predictedTime": "2026-04-08T09:33:11Z",
+      "temperature": 69.25,
+      "humidity": 49.34000015258789,
+      "airQuality": 134.89999389648438,
+      "duration": "12hr"
+    },
+    {
+      "step": 184,
+      "predictedTime": "2026-04-08T09:43:11Z",
+      "temperature": 69.5199966430664,
+      "humidity": 49.689998626708984,
+      "airQuality": 132.60000610351562,
+      "duration": "12hr"
+    },
+    {
+      "step": 185,
+      "predictedTime": "2026-04-08T09:53:11Z",
+      "temperature": 69.43000030517578,
+      "humidity": 49.66999816894531,
+      "airQuality": 130.89999389648438,
+      "duration": "12hr"
+    },
+    {
+      "step": 186,
+      "predictedTime": "2026-04-08T10:03:11Z",
+      "temperature": 69.80999755859375,
+      "humidity": 50.2599983215332,
+      "airQuality": 130.6999969482422,
+      "duration": "12hr"
+    },
+    {
+      "step": 187,
+      "predictedTime": "2026-04-08T10:13:11Z",
+      "temperature": 69.81999969482422,
+      "humidity": 49.66999816894531,
+      "airQuality": 134.1999969482422,
+      "duration": "12hr"
+    },
+    {
+      "step": 188,
+      "predictedTime": "2026-04-08T10:23:11Z",
+      "temperature": 69.72000122070312,
+      "humidity": 49.54999923706055,
+      "airQuality": 129.10000610351562,
+      "duration": "12hr"
+    },
+    {
+      "step": 189,
+      "predictedTime": "2026-04-08T10:33:11Z",
+      "temperature": 69.83000183105469,
+      "humidity": 49.560001373291016,
+      "airQuality": 133.0,
+      "duration": "12hr"
+    },
+    {
+      "step": 190,
+      "predictedTime": "2026-04-08T10:43:11Z",
+      "temperature": 69.66000366210938,
+      "humidity": 49.68000030517578,
+      "airQuality": 136.0,
+      "duration": "12hr"
+    },
+    {
+      "step": 191,
+      "predictedTime": "2026-04-08T10:53:11Z",
+      "temperature": 69.62000274658203,
+      "humidity": 49.31999969482422,
+      "airQuality": 133.6999969482422,
+      "duration": "12hr"
+    },
+    {
+      "step": 192,
+      "predictedTime": "2026-04-08T11:03:11Z",
+      "temperature": 69.44000244140625,
+      "humidity": 49.849998474121094,
+      "airQuality": 134.0,
+      "duration": "12hr"
+    },
+    {
+      "step": 193,
+      "predictedTime": "2026-04-08T11:13:11Z",
+      "temperature": 69.83000183105469,
+      "humidity": 49.619998931884766,
+      "airQuality": 131.10000610351562,
+      "duration": "12hr"
+    },
+    {
+      "step": 194,
+      "predictedTime": "2026-04-08T11:23:11Z",
+      "temperature": 69.58999633789062,
+      "humidity": 49.41999816894531,
+      "airQuality": 132.8000030517578,
+      "duration": "12hr"
+    },
+    {
+      "step": 195,
+      "predictedTime": "2026-04-08T11:33:11Z",
+      "temperature": 69.55999755859375,
+      "humidity": 49.540000915527344,
+      "airQuality": 133.6999969482422,
+      "duration": "12hr"
+    },
+    {
+      "step": 196,
+      "predictedTime": "2026-04-08T11:43:11Z",
+      "temperature": 69.05000305175781,
+      "humidity": 49.72999954223633,
+      "airQuality": 130.60000610351562,
+      "duration": "12hr"
+    },
+    {
+      "step": 197,
+      "predictedTime": "2026-04-08T11:53:11Z",
+      "temperature": 69.70999908447266,
+      "humidity": 49.81999969482422,
+      "airQuality": 130.89999389648438,
+      "duration": "12hr"
+    },
+    {
+      "step": 198,
+      "predictedTime": "2026-04-08T12:03:11Z",
+      "temperature": 69.80000305175781,
+      "humidity": 49.61000061035156,
+      "airQuality": 134.6999969482422,
+      "duration": "12hr"
+    },
+    {
+      "step": 199,
+      "predictedTime": "2026-04-08T12:13:11Z",
+      "temperature": 69.7699966430664,
+      "humidity": 49.83000183105469,
+      "airQuality": 134.3000030517578,
+      "duration": "12hr"
+    },
+    {
+      "step": 200,
+      "predictedTime": "2026-04-08T12:23:11Z",
+      "temperature": 69.51000213623047,
+      "humidity": 49.56999969482422,
+      "airQuality": 133.89999389648438,
+      "duration": "12hr"
+    },
+    {
+      "step": 201,
+      "predictedTime": "2026-04-08T12:33:11Z",
+      "temperature": 69.63999938964844,
+      "humidity": 49.83000183105469,
+      "airQuality": 135.3000030517578,
+      "duration": "12hr"
+    },
+    {
+      "step": 202,
+      "predictedTime": "2026-04-08T12:43:11Z",
+      "temperature": 69.66000366210938,
+      "humidity": 49.400001525878906,
+      "airQuality": 134.89999389648438,
+      "duration": "12hr"
+    },
+    {
+      "step": 203,
+      "predictedTime": "2026-04-08T12:53:11Z",
+      "temperature": 69.51000213623047,
+      "humidity": 49.70000076293945,
+      "airQuality": 131.89999389648438,
+      "duration": "12hr"
+    },
+    {
+      "step": 204,
+      "predictedTime": "2026-04-08T13:03:11Z",
+      "temperature": 69.63999938964844,
+      "humidity": 49.540000915527344,
+      "airQuality": 129.0,
+      "duration": "12hr"
+    },
+    {
+      "step": 205,
+      "predictedTime": "2026-04-08T13:13:11Z",
+      "temperature": 69.5999984741211,
+      "humidity": 49.779998779296875,
+      "airQuality": 132.0,
+      "duration": "12hr"
+    },
+    {
+      "step": 206,
+      "predictedTime": "2026-04-08T13:23:11Z",
+      "temperature": 69.26000213623047,
+      "humidity": 49.540000915527344,
+      "airQuality": 132.39999389648438,
+      "duration": "12hr"
+    },
+    {
+      "step": 207,
+      "predictedTime": "2026-04-08T13:33:11Z",
+      "temperature": 69.44999694824219,
+      "humidity": 49.689998626708984,
+      "airQuality": 129.8000030517578,
+      "duration": "12hr"
+    },
+    {
+      "step": 208,
+      "predictedTime": "2026-04-08T13:43:11Z",
+      "temperature": 69.41000366210938,
+      "humidity": 49.650001525878906,
+      "airQuality": 132.6999969482422,
+      "duration": "12hr"
+    },
+    {
+      "step": 209,
+      "predictedTime": "2026-04-08T13:53:11Z",
+      "temperature": 69.70999908447266,
+      "humidity": 50.189998626708984,
+      "airQuality": 133.10000610351562,
+      "duration": "12hr"
+    },
+    {
+      "step": 210,
+      "predictedTime": "2026-04-08T14:03:11Z",
+      "temperature": 69.66999816894531,
+      "humidity": 49.63999938964844,
+      "airQuality": 133.0,
+      "duration": "12hr"
+    },
+    {
+      "step": 211,
+      "predictedTime": "2026-04-08T14:13:11Z",
+      "temperature": 69.76000213623047,
+      "humidity": 49.5099983215332,
+      "airQuality": 128.8000030517578,
+      "duration": "12hr"
+    },
+    {
+      "step": 212,
+      "predictedTime": "2026-04-08T14:23:11Z",
+      "temperature": 69.76000213623047,
+      "humidity": 49.560001373291016,
+      "airQuality": 132.5,
+      "duration": "12hr"
+    },
+    {
+      "step": 213,
+      "predictedTime": "2026-04-08T14:33:11Z",
+      "temperature": 69.72000122070312,
+      "humidity": 49.599998474121094,
+      "airQuality": 131.60000610351562,
+      "duration": "12hr"
+    },
+    {
+      "step": 214,
+      "predictedTime": "2026-04-08T14:43:11Z",
+      "temperature": 69.5999984741211,
+      "humidity": 49.439998626708984,
+      "airQuality": 132.39999389648438,
+      "duration": "12hr"
+    },
+    {
+      "step": 215,
+      "predictedTime": "2026-04-08T14:53:11Z",
+      "temperature": 69.44000244140625,
+      "humidity": 49.79999923706055,
+      "airQuality": 135.8000030517578,
+      "duration": "12hr"
+    },
+    {
+      "step": 216,
+      "predictedTime": "2026-04-08T15:03:11Z",
+      "temperature": 69.19999694824219,
+      "humidity": 49.630001068115234,
+      "airQuality": 132.0,
+      "duration": "12hr"
+    },
+    {
+      "step": 217,
+      "predictedTime": "2026-04-08T15:13:11Z",
+      "temperature": 69.63999938964844,
+      "humidity": 49.77000045776367,
+      "airQuality": 132.60000610351562,
+      "duration": "12hr"
+    },
+    {
+      "step": 218,
+      "predictedTime": "2026-04-08T15:23:11Z",
+      "temperature": 69.76000213623047,
+      "humidity": 49.540000915527344,
+      "airQuality": 134.1999969482422,
+      "duration": "12hr"
+    },
+    {
+      "step": 219,
+      "predictedTime": "2026-04-08T15:33:11Z",
+      "temperature": 69.62000274658203,
+      "humidity": 50.04999923706055,
+      "airQuality": 130.10000610351562,
+      "duration": "12hr"
+    },
+    {
+      "step": 220,
+      "predictedTime": "2026-04-08T15:43:11Z",
+      "temperature": 69.61000061035156,
+      "humidity": 49.56999969482422,
+      "airQuality": 129.89999389648438,
+      "duration": "12hr"
+    },
+    {
+      "step": 221,
+      "predictedTime": "2026-04-08T15:53:11Z",
+      "temperature": 69.80000305175781,
+      "humidity": 49.88999938964844,
+      "airQuality": 133.60000610351562,
+      "duration": "12hr"
+    },
+    {
+      "step": 222,
+      "predictedTime": "2026-04-08T16:03:11Z",
+      "temperature": 69.70999908447266,
+      "humidity": 49.630001068115234,
+      "airQuality": 134.5,
+      "duration": "12hr"
+    },
+    {
+      "step": 223,
+      "predictedTime": "2026-04-08T16:13:11Z",
+      "temperature": 69.5999984741211,
+      "humidity": 49.70000076293945,
+      "airQuality": 133.60000610351562,
+      "duration": "12hr"
+    },
+    {
+      "step": 224,
+      "predictedTime": "2026-04-08T16:23:11Z",
+      "temperature": 69.69999694824219,
+      "humidity": 49.61000061035156,
+      "airQuality": 134.89999389648438,
+      "duration": "12hr"
+    },
+    {
+      "step": 225,
+      "predictedTime": "2026-04-08T16:33:11Z",
+      "temperature": 69.66000366210938,
+      "humidity": 49.689998626708984,
+      "airQuality": 133.0,
+      "duration": "12hr"
+    },
+    {
+      "step": 226,
+      "predictedTime": "2026-04-08T16:43:11Z",
+      "temperature": 69.63999938964844,
+      "humidity": 49.47999954223633,
+      "airQuality": 132.39999389648438,
+      "duration": "12hr"
+    },
+    {
+      "step": 227,
+      "predictedTime": "2026-04-08T16:53:11Z",
+      "temperature": 69.44000244140625,
+      "humidity": 49.439998626708984,
+      "airQuality": 131.5,
+      "duration": "12hr"
+    },
+    {
+      "step": 228,
+      "predictedTime": "2026-04-08T17:03:11Z",
+      "temperature": 69.5,
+      "humidity": 49.58000183105469,
+      "airQuality": 129.60000610351562,
+      "duration": "12hr"
+    },
+    {
+      "step": 229,
+      "predictedTime": "2026-04-08T17:13:11Z",
+      "temperature": 69.75,
+      "humidity": 49.810001373291016,
+      "airQuality": 130.0,
+      "duration": "12hr"
+    },
+    {
+      "step": 230,
+      "predictedTime": "2026-04-08T17:23:11Z",
+      "temperature": 69.41999816894531,
+      "humidity": 49.61000061035156,
+      "airQuality": 134.6999969482422,
+      "duration": "12hr"
+    },
+    {
+      "step": 231,
+      "predictedTime": "2026-04-08T17:33:11Z",
+      "temperature": 69.70999908447266,
+      "humidity": 49.880001068115234,
+      "airQuality": 132.5,
+      "duration": "12hr"
+    },
+    {
+      "step": 232,
+      "predictedTime": "2026-04-08T17:43:11Z",
+      "temperature": 69.70999908447266,
+      "humidity": 49.540000915527344,
+      "airQuality": 133.5,
+      "duration": "12hr"
+    },
+    {
+      "step": 233,
+      "predictedTime": "2026-04-08T17:53:11Z",
+      "temperature": 69.55999755859375,
+      "humidity": 49.68000030517578,
+      "airQuality": 132.3000030517578,
+      "duration": "12hr"
+    },
+    {
+      "step": 234,
+      "predictedTime": "2026-04-08T18:03:11Z",
+      "temperature": 69.69999694824219,
+      "humidity": 49.540000915527344,
+      "airQuality": 131.10000610351562,
+      "duration": "12hr"
+    },
+    {
+      "step": 235,
+      "predictedTime": "2026-04-08T07:03:11Z",
+      "temperature": 68.9000015258789,
+      "humidity": 50.34000015258789,
+      "airQuality": 123.69999694824219,
+      "duration": "24hr"
+    },
+    {
+      "step": 236,
+      "predictedTime": "2026-04-08T08:03:11Z",
+      "temperature": 68.87000274658203,
+      "humidity": 48.939998626708984,
+      "airQuality": 133.8000030517578,
+      "duration": "24hr"
+    },
+    {
+      "step": 237,
+      "predictedTime": "2026-04-08T09:03:11Z",
+      "temperature": 69.45999908447266,
+      "humidity": 49.31999969482422,
+      "airQuality": 133.3000030517578,
+      "duration": "24hr"
+    },
+    {
+      "step": 238,
+      "predictedTime": "2026-04-08T10:03:11Z",
+      "temperature": 71.01000213623047,
+      "humidity": 49.88999938964844,
+      "airQuality": 124.19999694824219,
+      "duration": "24hr"
+    },
+    {
+      "step": 239,
+      "predictedTime": "2026-04-08T11:03:11Z",
+      "temperature": 70.56999969482422,
+      "humidity": 49.45000076293945,
+      "airQuality": 134.3000030517578,
+      "duration": "24hr"
+    },
+    {
+      "step": 240,
+      "predictedTime": "2026-04-08T12:03:11Z",
+      "temperature": 69.51000213623047,
+      "humidity": 49.56999969482422,
+      "airQuality": 132.6999969482422,
+      "duration": "24hr"
+    },
+    {
+      "step": 241,
+      "predictedTime": "2026-04-08T13:03:11Z",
+      "temperature": 69.44000244140625,
+      "humidity": 49.599998474121094,
+      "airQuality": 131.0,
+      "duration": "24hr"
+    },
+    {
+      "step": 242,
+      "predictedTime": "2026-04-08T14:03:11Z",
+      "temperature": 69.95999908447266,
+      "humidity": 49.880001068115234,
+      "airQuality": 132.6999969482422,
+      "duration": "24hr"
+    },
+    {
+      "step": 243,
+      "predictedTime": "2026-04-08T15:03:11Z",
+      "temperature": 69.75,
+      "humidity": 49.75,
+      "airQuality": 133.3000030517578,
+      "duration": "24hr"
+    },
+    {
+      "step": 244,
+      "predictedTime": "2026-04-08T16:03:11Z",
+      "temperature": 69.55000305175781,
+      "humidity": 49.56999969482422,
+      "airQuality": 129.39999389648438,
+      "duration": "24hr"
+    },
+    {
+      "step": 245,
+      "predictedTime": "2026-04-08T17:03:11Z",
+      "temperature": 69.86000061035156,
+      "humidity": 49.65999984741211,
+      "airQuality": 130.3000030517578,
+      "duration": "24hr"
+    },
+    {
+      "step": 246,
+      "predictedTime": "2026-04-08T18:03:11Z",
+      "temperature": 69.81999969482422,
+      "humidity": 49.79999923706055,
+      "airQuality": 134.3000030517578,
+      "duration": "24hr"
+    },
+    {
+      "step": 247,
+      "predictedTime": "2026-04-08T19:03:11Z",
+      "temperature": 69.6500015258789,
+      "humidity": 49.650001525878906,
+      "airQuality": 131.5,
+      "duration": "24hr"
+    },
+    {
+      "step": 248,
+      "predictedTime": "2026-04-08T20:03:11Z",
+      "temperature": 69.6500015258789,
+      "humidity": 49.58000183105469,
+      "airQuality": 134.5,
+      "duration": "24hr"
+    },
+    {
+      "step": 249,
+      "predictedTime": "2026-04-08T21:03:11Z",
+      "temperature": 69.66000366210938,
+      "humidity": 49.5099983215332,
+      "airQuality": 134.0,
+      "duration": "24hr"
+    },
+    {
+      "step": 250,
+      "predictedTime": "2026-04-08T22:03:11Z",
+      "temperature": 69.06999969482422,
+      "humidity": 49.689998626708984,
+      "airQuality": 132.8000030517578,
+      "duration": "24hr"
+    },
+    {
+      "step": 251,
+      "predictedTime": "2026-04-08T23:03:11Z",
+      "temperature": 69.58999633789062,
+      "humidity": 49.689998626708984,
+      "airQuality": 130.6999969482422,
+      "duration": "24hr"
+    },
+    {
+      "step": 252,
+      "predictedTime": "2026-04-09T00:03:11Z",
+      "temperature": 69.80000305175781,
+      "humidity": 49.900001525878906,
+      "airQuality": 132.0,
+      "duration": "24hr"
+    },
+    {
+      "step": 253,
+      "predictedTime": "2026-04-09T01:03:11Z",
+      "temperature": 69.70999908447266,
+      "humidity": 49.720001220703125,
+      "airQuality": 134.5,
+      "duration": "24hr"
+    },
+    {
+      "step": 254,
+      "predictedTime": "2026-04-09T02:03:11Z",
+      "temperature": 69.51000213623047,
+      "humidity": 49.59000015258789,
+      "airQuality": 131.0,
+      "duration": "24hr"
+    },
+    {
+      "step": 255,
+      "predictedTime": "2026-04-09T03:03:11Z",
+      "temperature": 69.25,
+      "humidity": 49.34000015258789,
+      "airQuality": 134.89999389648438,
+      "duration": "24hr"
+    },
+    {
+      "step": 256,
+      "predictedTime": "2026-04-09T04:03:11Z",
+      "temperature": 69.5199966430664,
+      "humidity": 49.689998626708984,
+      "airQuality": 132.60000610351562,
+      "duration": "24hr"
+    },
+    {
+      "step": 257,
+      "predictedTime": "2026-04-09T05:03:11Z",
+      "temperature": 69.43000030517578,
+      "humidity": 49.66999816894531,
+      "airQuality": 130.89999389648438,
+      "duration": "24hr"
+    },
+    {
+      "step": 258,
+      "predictedTime": "2026-04-09T06:03:11Z",
+      "temperature": 69.80999755859375,
+      "humidity": 50.2599983215332,
+      "airQuality": 130.6999969482422,
+      "duration": "24hr"
+    },
+    {
+      "step": 259,
+      "predictedTime": "2026-04-09T06:03:11Z",
+      "temperature": 68.9000015258789,
+      "humidity": 50.34000015258789,
+      "airQuality": 123.69999694824219,
+      "duration": "1week"
+    },
+    {
+      "step": 260,
+      "predictedTime": "2026-04-10T06:03:11Z",
+      "temperature": 68.87000274658203,
+      "humidity": 48.939998626708984,
+      "airQuality": 133.8000030517578,
+      "duration": "1week"
+    },
+    {
+      "step": 261,
+      "predictedTime": "2026-04-11T06:03:11Z",
+      "temperature": 69.45999908447266,
+      "humidity": 49.31999969482422,
+      "airQuality": 133.3000030517578,
+      "duration": "1week"
+    },
+    {
+      "step": 262,
+      "predictedTime": "2026-04-12T06:03:11Z",
+      "temperature": 71.01000213623047,
+      "humidity": 49.88999938964844,
+      "airQuality": 124.19999694824219,
+      "duration": "1week"
+    },
+    {
+      "step": 263,
+      "predictedTime": "2026-04-13T06:03:11Z",
+      "temperature": 70.56999969482422,
+      "humidity": 49.45000076293945,
+      "airQuality": 134.3000030517578,
+      "duration": "1week"
+    },
+    {
+      "step": 264,
+      "predictedTime": "2026-04-14T06:03:11Z",
+      "temperature": 69.51000213623047,
+      "humidity": 49.56999969482422,
+      "airQuality": 132.6999969482422,
+      "duration": "1week"
+    },
+    {
+      "step": 265,
+      "predictedTime": "2026-04-15T06:03:11Z",
+      "temperature": 69.44000244140625,
+      "humidity": 49.599998474121094,
+      "airQuality": 131.0,
+      "duration": "1week"
+    }
+  ]
+}
