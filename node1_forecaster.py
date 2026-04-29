@@ -12,6 +12,7 @@ import json
 from datetime import datetime, timezone
 from sqlalchemy import create_engine, text
 from sklearn.multioutput import MultiOutputRegressor
+from sklearn.metrics import accuracy_score
 from sklearn.metrics import mean_absolute_error
 from sklearn.model_selection import train_test_split
 
@@ -36,7 +37,8 @@ def retrain():
         "createdAt" as "Timestamp",
         temperature as "Temperature (°C)",
         humidity as "Humidity (%)",
-        "airQuality" as "Air Quality"
+        "airQuality" as "Air Quality",
+        flame as "Flame"
     FROM sensor_data
     WHERE temperature IS NOT NULL
       AND humidity IS NOT NULL
@@ -55,14 +57,17 @@ def retrain():
     df["Timestamp"] = pd.to_datetime(df["Timestamp"])
     df = df.sort_values("Timestamp").reset_index(drop=True)
 
+    df["Flame"] = df["Flame"].fillna(False).astype(bool).astype(int)
+
     print(f"Loaded {len(df)} rows from database")
 
 
     # ── STEP 2: Create lag features ───────────────────────────────
     # The model learns from the previous 3 readings to predict the next.
     targets = ["Temperature (°C)", "Humidity (%)", "Air Quality"]
+    flame_col = "Flame"
 
-    for col in targets:
+    for col in targets + [flame_col]:
         df[f"{col}_lag1"] = df[col].shift(1)   # value 1 step ago
         df[f"{col}_lag2"] = df[col].shift(2)   # value 2 steps ago
         df[f"{col}_lag3"] = df[col].shift(3)   # value 3 steps ago
@@ -76,6 +81,7 @@ def retrain():
     feature_cols = [c for c in df.columns if "lag" in c]
     X = df[feature_cols]
     y = df[targets]
+    y_flame = df[flame_col].fillna(False).astype(int)
 
     print(f"Features: {feature_cols}")
 
@@ -84,6 +90,10 @@ def retrain():
 
     X_train, X_test, y_train, y_test = train_test_split(
         X, y, test_size=0.2, shuffle=False
+    )
+
+    _, _, yfl_train, yfl_test = train_test_split(
+        X, y_flame, test_size=0.2, shuffle=False
     )
 
 
@@ -96,67 +106,85 @@ def retrain():
     model.fit(X_train, y_train)
     print("Training done!")
 
+    flame_model = xgb.XGBClassifier(
+        n_estimators=300,
+        max_depth=4,
+        learning_rate=0.1,
+        subsample=0.9,
+        colsample_bytree=0.9,
+        random_state=42,
+        eval_metric='logloss'
+    )
+    flame_model.fit(X_train, yfl_train)
+    print("Flame classifier training done!")
+
 
     # ── STEP 6: Evaluate on test set ──────────────────────────────
     preds = model.predict(X_test)
     mae   = mean_absolute_error(y_test, preds, multioutput="raw_values")
+
+    flame_preds = flame_model.predict(X_test)
+    flame_acc = accuracy_score(yfl_test, flame_preds)
 
     print("\n── Test MAE ──────────────────────────────────")
 
     for i in range(len(targets)):
         print(f"{targets[i]} MAE = {mae[i]:.3f}")
 
+    print(f"Flame ACC = {flame_acc:.3f}")
+
     # ── STEP 7: Forecast next readings with timestamps ─────────
-    # Generate exact points needed for each duration option (independent forecasts)
+    # Generate next 24 hours at 1-minute interval
 
     avg_gap_seconds = df["Timestamp"].diff().dropna().dt.total_seconds().mean()
     last_time       = df["Timestamp"].iloc[-1]   # last known timestamp
     last_reading    = df.iloc[-1]
     base_history    = df[targets].values.tolist()[-5:]  # Last 5 readings as base
+    base_flame_hist = df[flame_col].fillna(False).astype(int).values.tolist()[-5:]
 
-    # Define forecast configurations: (duration_name, interval_minutes, steps)
-    forecast_configs = [
-        ('30min', 1, 30),      # 30min: 30 points at 1 min intervals
-        ('1hr', 1, 60),        # 1hr: 60 points at 1 min intervals
-        ('6hr', 5, 72),        # 6hr: 72 points at 5 min intervals
-        ('12hr', 10, 72),      # 12hr: 72 points at 10 min intervals
-        ('24hr', 60, 24),      # 24hr: 24 points at 1 hour intervals
-        ('1week', 1440, 7),    # 1week: 7 points at 1 day intervals
-    ]
-
+    interval_seconds = 60
+    steps = 24 * 60
+    history = base_history.copy()
+    flame_history = base_flame_hist.copy()
     future_preds = []
-    for duration_name, interval_mins, steps in forecast_configs:
-        interval_seconds = interval_mins * 60
-        history = base_history.copy()  # Start fresh for each duration
-        
-        for step in range(steps):
-            # Build one feature row from last 5 readings
-            row = []
-            for col_idx in range(len(targets)):
-                row += [history[-1][col_idx],   # lag1
-                        history[-2][col_idx],   # lag2
-                        history[-3][col_idx],   # lag3
-                        history[-4][col_idx],   # lag4
-                        history[-5][col_idx]]   # lag5
+    for step in range(steps):
+        row = []
+        for col_idx in range(len(targets)):
+            row += [history[-1][col_idx],
+                    history[-2][col_idx],
+                    history[-3][col_idx],
+                    history[-4][col_idx],
+                    history[-5][col_idx]]
 
-            pred = model.predict([row])[0]
-            pred_time = last_time + pd.Timedelta(seconds=interval_seconds * (step + 1))
+        row += [
+            flame_history[-1],
+            flame_history[-2],
+            flame_history[-3],
+            flame_history[-4],
+            flame_history[-5],
+        ]
 
-            history.append(pred.tolist())
-            future_preds.append({
-                "step":             len(future_preds) + 1,
-                "predictedTime":    pred_time.strftime("%Y-%m-%dT%H:%M:%S") + "Z",
-                "temperature":      float(round(pred[0], 2)),
-                "humidity":         float(round(pred[1], 2)),
-                "airQuality":       float(round(pred[2], 1)),
-                "duration":         duration_name,
-            })
+        pred = model.predict([row])[0]
+        pred_flame = int(flame_model.predict([row])[0])
+        pred_time = last_time + pd.Timedelta(seconds=interval_seconds * (step + 1))
+
+        history.append(pred.tolist())
+        flame_history.append(pred_flame)
+        future_preds.append({
+            "step": len(future_preds) + 1,
+            "predictedTime": pred_time.strftime("%Y-%m-%dT%H:%M:%S") + "Z",
+            "temperature": float(round(pred[0], 2)),
+            "humidity": float(round(pred[1], 2)),
+            "airQuality": float(round(pred[2], 1)),
+            "flame": bool(pred_flame),
+        })
 
     print(f"\n── Generated {len(future_preds)} forecast steps ────────────────────────────")
 
     # ── STEP 8: Save model ───────────────────────────────────────
     joblib.dump(model, "node1_model.pkl")
     joblib.dump(feature_cols, "node1_features.pkl")
+    joblib.dump(flame_model, "node1_flame_model.pkl")
     print("Model saved as node1_model.pkl")
 
     # ── STEP 9: Save forecast data as JSON for backend API ─────────────
@@ -169,16 +197,19 @@ def retrain():
             "temperature": float(last_reading["Temperature (°C)"]),
             "humidity": float(last_reading["Humidity (%)"]),
             "airQuality": float(last_reading["Air Quality"]),
+            "flame": bool(last_reading[flame_col]) if flame_col in last_reading else False,
         },
         "mae": {
             "temperature": float(round(mae[0], 3)),
             "humidity": float(round(mae[1], 3)),
             "airQuality": float(round(mae[2], 3)),
+            "flameAccuracy": float(round(flame_acc, 3)),
         },
         "forecast": future_preds,
     }
 
-    with open("forecast_data.json", "w") as f:
+    out_path = os.path.join(os.path.dirname(__file__), "forecast_data.json")
+    with open(out_path, "w") as f:
         json.dump(forecast_data, f, indent=2)
     
     print("Forecast data saved as forecast_data.json")
